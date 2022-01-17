@@ -1,17 +1,17 @@
 {
-  "name": "theme-fm-mod",
-  "displayName": "Theme -FM mods",
-  "description": "A Visual Studio Code theme for those of us who like to code late into the night.<br> -FM mods.",
-  "version": "1.2.3",
-  "publisher": "tal7aouy & fmeilleur",
-  "author": {
-    "name": "MHAMMED TALHAOUY",
-    "email": "talhaouycoding@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fmeilleur/theme"
-  },
+	"name": "theme-fm-mod",
+	"displayName": "Theme -FM mods",
+	"description": "A Visual Studio Code theme for those of us who like to code late into the night.<br> -FM mods.",
+	"version": "1.2.3",
+	"publisher": "fmeilleur & tal7aouy",
+	"author": {
+	  "name": "François Meilleur & MHAMMED TALHAOUY",
+	  "email": "francois.meilleur@hey.com"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/fmeilleur/theme"
+	},
   "galleryBanner": {
     "color": "#282c34",
     "theme": "dark"

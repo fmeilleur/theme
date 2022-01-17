@@ -260,7 +260,7 @@
          "name": "Variable",
          "scope": "variable",
          "settings": {
-            "foreground": "#00aa886"
+            "foreground": "#0aa886"
          }
       },
       {
