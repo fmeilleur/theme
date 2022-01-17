@@ -1,16 +1,16 @@
 {
-  "name": "theme",
-  "displayName": "Theme",
-  "description": "A Visual Studio Code theme  for those of us who like to code late into the night",
+  "name": "theme-fm-mod",
+  "displayName": "Theme -FM mods",
+  "description": "A Visual Studio Code theme for those of us who like to code late into the night.<br> -FM mods.",
   "version": "1.2.3",
-  "publisher": "tal7aouy",
+  "publisher": "tal7aouy & fmeilleur",
   "author": {
     "name": "MHAMMED TALHAOUY",
     "email": "talhaouycoding@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tal7aouy/theme"
+    "url": "https://github.com/fmeilleur/theme"
   },
   "galleryBanner": {
     "color": "#282c34",
@@ -38,7 +38,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Theme",
+        "label": "Theme -FM mods",
         "uiTheme": "vs-dark",
         "path": "./themes/Theme-color-theme.json"
       }
