@@ -1,0 +1,64 @@
+{
+   "editor.tokenColorCustomizations": {
+      "textMateRules": [
+         // NOTE Theme -FM mods
+         {
+            "name": "Variable",
+            "scope": "variable", // css --xxx colour
+            "settings": {
+               "foreground": "#0aa886"
+            }
+         },
+         {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "settings": {
+               "foreground": "#37a7bb"
+               // "foreground": "#37bb7d"
+            }
+         },
+         {
+            "name": "Entity other attribute name id",
+            "scope": "entity.other.attribute-name.id",
+            "settings": {
+               "foreground": "#85a5e9"
+            }
+         },
+         {
+            "name": "Entity other attribute name class",
+            "scope": "entity.other.attribute-name.class",
+            "settings": {
+               "foreground": "#bb7737"
+            }
+         },
+         {
+            "name": "Entity other attribute name pseudo",
+            "scope": [
+               "entity.other.attribute-name.pseudo"
+               //, "entity.other.attribute-name.pseudo-element"
+            ],
+            "settings": {
+               "foreground": "#adff2f"
+               // #ffaf53
+            }
+         },
+         {
+            "name": "Support function",
+            "scope": "support.function",
+            "settings": {
+               "foreground": "#3f9dd3"
+            }
+         },
+         {
+            "name": "String quoted",
+            "scope": [
+               "string.quoted",
+               "variable.other.readwrite.js"
+            ],
+            "settings": {
+               "foreground": "#ceb666"
+            }
+         }
+      ]
+   }
+}
