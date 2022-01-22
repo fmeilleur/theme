@@ -3,8 +3,9 @@
       "textMateRules": [
          // NOTE Theme -FM mods
          {
-            "name": "Variable",
-            "scope": "variable", // css --xxx colour
+            // css --xxx colour
+            "name": "Variable --(css)",
+            "scope": "variable",
             "settings": {
                "foreground": "#0aa886"
             }
@@ -14,7 +15,7 @@
             "scope": "entity.other.attribute-name",
             "settings": {
                "foreground": "#37a7bb"
-               // "foreground": "#37bb7d"
+               // #37bb7d
             }
          },
          {
@@ -32,14 +33,17 @@
             }
          },
          {
-            "name": "Entity other attribute name pseudo",
-            "scope": [
-               "entity.other.attribute-name.pseudo"
-               //, "entity.other.attribute-name.pseudo-element"
-            ],
+            "name": "Entity other attribute name pseudo-class",
+            "scope": "entity.other.attribute-name.pseudo-class",
             "settings": {
                "foreground": "#adff2f"
-               // #ffaf53
+            }
+         },
+         {
+            "name": "Entity other atrribute name pseudo-element",
+            "scope": "entity.other.attribute-name.pseudo-element",
+            "settings": {
+               "foreground": "#ffaf53"
             }
          },
          {
@@ -51,14 +55,18 @@
          },
          {
             "name": "String quoted",
-            "scope": [
-               "string.quoted",
-               "variable.other.readwrite.js"
-            ],
+            "scope": ["string.quoted", "variable.other.readwrite.js"],
             "settings": {
                "foreground": "#ceb666"
             }
          }
       ]
+   },
+   "workbench.colorCustomizations": {
+      // SECTION Theme -FM mods
+      "[Theme]": {
+         "statusBar.background": "#084466",
+         "statusBarItem.hoverBackground": "#0a527c"
+      }
    }
 }
