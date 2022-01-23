@@ -1,70 +1,108 @@
 {
+   // SECTION Editor custom colours
    "editor.tokenColorCustomizations": {
-      "textMateRules": [
-         // NOTE Theme -FM mods
-         {
-            // css --xxx colour
-            "name": "Variable --(css)",
-            "scope": "variable",
-            "settings": {
-               "foreground": "#0aa886"
-            }
-         },
-         {
-            "name": "Tag attribute",
-            "scope": "entity.other.attribute-name",
-            "settings": {
-               "foreground": "#37a7bb"
-               // #37bb7d
-            }
-         },
-         {
-            "name": "Entity other attribute name id",
-            "scope": "entity.other.attribute-name.id",
-            "settings": {
-               "foreground": "#85a5e9"
-            }
-         },
-         {
-            "name": "Entity other attribute name class",
-            "scope": "entity.other.attribute-name.class",
-            "settings": {
-               "foreground": "#bb7737"
-            }
-         },
-         {
-            "name": "Entity other attribute name pseudo-class",
-            "scope": "entity.other.attribute-name.pseudo-class",
-            "settings": {
-               "foreground": "#adff2f"
-            }
-         },
-         {
-            "name": "Entity other atrribute name pseudo-element",
-            "scope": "entity.other.attribute-name.pseudo-element",
-            "settings": {
-               "foreground": "#ffaf53"
-            }
-         },
-         {
-            "name": "Support function",
-            "scope": "support.function",
-            "settings": {
-               "foreground": "#3f9dd3"
-            }
-         },
-         {
-            "name": "String quoted",
-            "scope": ["string.quoted", "variable.other.readwrite.js"],
-            "settings": {
-               "foreground": "#ceb666"
-            }
-         }
-      ]
-   },
-   "workbench.colorCustomizations": {
-      // SECTION Theme -FM mods
+      // NOTE Theme -FM mods
       "[Theme]": {
+         "textMateRules": [
+            {
+               "name": "Meta punctuation definition tag",
+               "scope": "punctuation.definition.tag", // <>
+               "settings": {
+                  "foreground": "#8298A6",
+                  "fontStyle": ""
+               }
+            },
+            {
+               "name": "Meta tag and css puntuation separetor tag",
+               "scope": [
+                  "meta.tag", // =
+                  "punctuation.separator.key-value.css", // :
+                  "punctuation.terminator.rule.css" // ;
+               ],
+               "settings": {
+                  "foreground": "#abb2bf",
+                  "fontStyle": ""
+               }
+            },
+            {
+               "name": "CSS other property value",
+               "scope": "meta.property-value.css",
+               "settings": {
+                  "foreground": "#ff649b"
+               }
+            },
+            {
+               "name": "CSS support constant property value",
+               "scope": "support.constant.property-value.css",
+               "settings": {
+                  "foreground": "#ff4678"
+               }
+            },
+            {
+               "name": "Tag attribute",
+               "scope": "entity.other.attribute-name",
+               "settings": {
+                  "foreground": "#37a7bb"
+               }
+            },
+            {
+               "name": "Entity other attribute name id",
+               "scope": "entity.other.attribute-name.id",
+               "settings": {
+                  "foreground": "#85a5e9"
+               }
+            },
+            {
+               "name": "Entity other attribute name class",
+               "scope": "entity.other.attribute-name.class",
+               "settings": {
+                  "foreground": "#bb7737"
+               }
+            },
+            {
+               "name": "Entity other attribute name pseudo-class",
+               "scope": "entity.other.attribute-name.pseudo-class",
+               "settings": {
+                  "foreground": "#adff2f"
+               }
+            },
+            {
+               "name": "Entity other atrribute name pseudo-element",
+               "scope": "entity.other.attribute-name.pseudo-element",
+               "settings": {
+                  "foreground": "#ffaf53"
+               }
+            },
+            {
+               "name": "Support function",
+               "scope": "support.function",
+               "settings": {
+                  "foreground": "#3f9dd3"
+               }
+            },
+            {
+               "name": "String quoted",
+               "scope": ["string.quoted", "variable.other.readwrite.js"],
+               "settings": {
+                  "foreground": "#d9b66C"
+               }
+            },
+            {
+               // css --xyz colour
+               "name": "Variable --(xyz)",
+               "scope": "variable",
+               "settings": {
+                  "foreground": "#0aa886"
+               }
+            }
+         ]
+      }
+   },
+   // SECTION Workbench custom colours
+   "workbench.colorCustomizations": {
+      // NOTE Theme -FM mods
+      "[Theme]": {
+         "editor.foreground": "#727781", // abb2bf
          "statusBar.background": "#084466",
          "statusBarItem.hoverBackground": "#0a527c"
       }
