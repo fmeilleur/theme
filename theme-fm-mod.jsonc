@@ -84,11 +84,24 @@
                "name": "String quoted",
                "scope": ["string.quoted", "variable.other.readwrite.js"],
                "settings": {
-                  "foreground": "#d9b66C"
+                  "foreground": "#d9b682"
                }
             },
             {
-               // css --xyz colour
+               "name": "CSS string quoted",
+               "scope": "string.quoted.single.css",
+               "settings": {
+                  "foreground": "#f832e6"
+               }
+            },
+            {
+               "name": "CSS support constant media",
+               "scope": "support.constant.media.css",
+               "settings": {
+                  "foreground": "#4972e0"
+               }
+            },
+            {
                "name": "Variable --(xyz)",
                "scope": "variable",
                "settings": {
