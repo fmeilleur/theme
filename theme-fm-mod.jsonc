@@ -17,25 +17,12 @@
                "scope": [
                   "meta.tag", // =
                   "punctuation.separator.key-value.css", // :
+                  "punctuation.separator.list.comma.css", // ,
                   "punctuation.terminator.rule.css" // ;
                ],
                "settings": {
                   "foreground": "#abb2bf",
                   "fontStyle": ""
-               }
-            },
-            {
-               "name": "CSS other property value",
-               "scope": "meta.property-value.css",
-               "settings": {
-                  "foreground": "#ff649b"
-               }
-            },
-            {
-               "name": "CSS support constant property value",
-               "scope": "support.constant.property-value.css",
-               "settings": {
-                  "foreground": "#ff4678"
                }
             },
             {
@@ -88,24 +75,45 @@
                }
             },
             {
-               "name": "CSS string quoted",
+               "name": "CSS string double quoted",
+               "scope": "string.quoted.double.css",
+               "settings": {
+                  "foreground": "#c76c6c"
+               }
+            },
+            {
+               "name": "CSS string single quoted",
                "scope": "string.quoted.single.css",
                "settings": {
                   "foreground": "#f832e6"
                }
             },
             {
+               "name": "CSS other property value",
+               "scope": "meta.property-value.css",
+               "settings": {
+                  "foreground": "#ff649b"
+               }
+            },
+            {
+               "name": "CSS support constant property value",
+               "scope": "support.constant.property-value.css",
+               "settings": {
+                  "foreground": "#ff4678"
+               }
+            },
+            {
                "name": "CSS support constant media",
                "scope": "support.constant.media.css",
                "settings": {
-                  "foreground": "#4972e0"
+                  "foreground": "#0aa886" // 4972e0 blue-ish
                }
             },
             {
                "name": "Variable --(xyz)",
                "scope": "variable",
                "settings": {
-                  "foreground": "#0aa886"
+                  "foreground": "#7fc76c"
                }
             }
          ]
